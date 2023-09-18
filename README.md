@@ -10,5 +10,5 @@ This code recodes crime types in the Probation data into Home Office offence cat
 The 2022 Home Office offence classification file as at November 2022 (downloaded from [GOV.UK](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjTu-6npPf-AhUHJ8AKHQwFABoQFnoECAgQAQ&url=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fgovernment%2Fuploads%2Fsystem%2Fuploads%2Fattachment_data%2Ffile%2F1118266%2Foffence-group-classification-june-2022.xlsx&usg=AOvVaw2Zr1iluDWlyp0qFLxloIfR) (offence-group-classification-june-2022.csv)) was used as a lookup file from which to match mo_codes in the Probation data file.
 
 ### R Code excerpt 2: Classifying alcohol-defined offences
-This code classifies crime types in the Probation data based on whether they are alcohol-defined offences or not.
+This code classifies crime types in the Probation data based on whether they are alcohol-defined (namely, those crimes defined by the presence of involvement of alcohol supply and/or consumption) offences or not.
 
