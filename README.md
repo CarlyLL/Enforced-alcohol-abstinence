@@ -12,3 +12,5 @@ The 2022 Home Office offence classification file as at November 2022 (downloaded
 ### R Code excerpt 2: Classifying alcohol-defined offences
 This code classifies crime types in the Probation data based on whether they are alcohol-defined (namely, those crimes defined by the presence of involvement of alcohol supply and/or consumption) offences or not.
 
+To discern between alcohol-defined and non-alcohol defined offences, the approach taken was to identify a subset of offence codes within the published Home Office offence classification (2022) based on the following stem words: "drink", "drunk", "alcohol", "influence of" and "intox" appearing in the text (Detailed_offence) accompanying the relevant offence codes (Offence_code). 
+
