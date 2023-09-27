@@ -1,4 +1,4 @@
-# R Code excerpt 2: Classifying alcohol-defined offences
+# R Code excerpt 3: Classifying alcohol-defined offences
 
 `HOCODES <- read.csv("offence-group-classification-june-2022.csv")
 
