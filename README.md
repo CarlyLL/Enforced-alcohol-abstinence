@@ -5,7 +5,7 @@ Data and codes used in my ADRUK Data First Fellowship as detailed [here](https:/
 
 ## Guide to the R scripts
 ### R Code excerpt 1: Linking probation data files
-To be added in due course. 
+This code reads in and appends the probation data flat files and does the same for the requirement files. It then creates a wide version of the requirement type and appends this to the flat file records.
 
 ### R Code excerpt 2: Appending Home Office Offence codes
 This code recodes crime types in the Probation data into Home Office offence categories.
@@ -18,7 +18,7 @@ This code classifies crime types in the Probation data based on whether they are
 To discern between alcohol-defined and non-alcohol defined offences, the approach taken was to identify a subset of offence codes within the published Home Office offence classification (2022) based on the following stem words: "drink", "drunk", "alcohol", "influence of" and "intox" appearing in the text (Detailed_offence) accompanying the relevant offence codes (Offence_code). 
 
 ### R Code excerpt 4: Probation data analysis
-This code reads in and appends the probation data flat files and does the same for the requirement files. It then creates a wide version of the requirement type and appends this to the flat file records.
+To be added in due course. 
 
 ### R Code excerpt 5: Linking Probation and criminal courts datasets
 To be added in due course. 
