@@ -23,6 +23,6 @@ To be added in due course.
 ### R Code excerpt 5: Linking Probation and criminal courts datasets
 To be added in due course. 
 
-### R Code excerpt 6: Linking Probation and criminal courts data analysis
+### R Code excerpt 6: Linked Probation and criminal courts data analysis
 To be added in due course. 
 
