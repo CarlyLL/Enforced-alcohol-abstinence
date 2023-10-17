@@ -20,8 +20,6 @@ To discern between alcohol-defined and non-alcohol defined offences, the approac
 ### R Code excerpt 4: Probation data analysis
 This code reads in and appends the probation data flat files and does the same for the requirement files. It then creates a wide version of the requirement type and appends this to the flat file records.
 
-To be added in due course. 
-
 ### R Code excerpt 5: Linking Probation and criminal courts datasets
 To be added in due course. 
 
