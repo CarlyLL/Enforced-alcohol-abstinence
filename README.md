@@ -21,7 +21,7 @@ To discern between alcohol-defined and non-alcohol defined offences, the approac
 To be added in due course. 
 
 ### R Code excerpt 5: Probation and magistrates person-event data linkage
-This code details the steps taken to link person-events using the probation and magistrates' court records.
+This code details the steps taken to link person-events using the probation and magistrates' court records and create proxy reoffending measures (re-representations before the court).
 
 ### R Code excerpt 6: Linked Probation and criminal courts data analysis
 To be added in due course. 
