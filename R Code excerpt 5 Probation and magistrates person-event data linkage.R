@@ -41,7 +41,7 @@ MAGPROBpeople <- MAGPROBpeople %>% dplyr::filter(offence_date >= as.Date("2011-0
 ## Calculating reappearance measures
 
 #derive reappearance binary outcome
-MAGPROBpeople[, reoffended := ifelse(offence_date > referral_date, 1,0)]  
+MAGPROBpeople[, reoffended := ifelse(offence_date > referral_date[1L], 1,0)]  
 
 #derive reappearance count outcome
 MAGPROBpeople[, count_reoffending := sum(offence_date > referral_date[1L], na.rm=TRUE), by=estimated_mc_cc_ps_dp]  
