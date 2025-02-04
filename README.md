@@ -25,5 +25,6 @@ It provides code for modelling binary reoffending outcomes as well as reoffendin
 This code details the steps taken to link person-events using the probation and magistrates' court records and create proxy reoffending measures (re-representations before the court).
 
 ### R Code excerpt 6: Linked Probation and criminal courts data analysis
-To be added in due course. 
+This code examines whether those with AAMRs turn up again in court data by identifying all those in the probation data that have a record in the court data where the offence_date is greater than the main_offence_date.
+It provides code for the modelling of binary reoffending as well as reoffending count and the duration (in days) elapsed before any subsequent offence.
 
