@@ -18,8 +18,7 @@ This code classifies crime types in the Probation data based on whether they are
 To discern between alcohol-defined and non-alcohol defined offences, the approach taken was to identify a subset of offence codes within the published Home Office offence classification (2022) based on the following stem words: "drink", "drunk", "alcohol", "influence of" and "intox" appearing in the text (Detailed_offence) accompanying the relevant offence codes (Offence_code). 
 
 ### R Code excerpt 4: Probation data analysis (longitudinal analysis)
-This code examines whether those with AAMRs turn up again in court data by identifying all those in the probation data that have a record in the court data where the offence_date is greater than the main_offence_date.
-It provides code for modelling binary reoffending outcomes as well as reoffending counts and the duration (in days) elapsed until any subsequence offence.
+To be added soon.
 
 ### R Code excerpt 5: Probation and magistrates person-event data linkage
 This code details the steps taken to link person-events using the probation and magistrates' court records and create proxy reoffending measures (re-representations before the court).
